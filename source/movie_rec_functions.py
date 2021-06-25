@@ -9,7 +9,7 @@ def get_weighted_rating(x, m, C):
 
 	WR = (v/(v+m)) * R + (m/(v+m)) * C
 
-	return WR
+	return round(WR, 2)
 
 
 if __name__ == '__main__':
